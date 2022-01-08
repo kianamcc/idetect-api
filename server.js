@@ -19,7 +19,7 @@ const entries = require('./controllers/entries');
 const db = knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
+      host : 'postgresql-encircled-94862',
       user : 'kiana',
       password : '',
       database : 'facial-recognition'
