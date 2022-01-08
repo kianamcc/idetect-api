@@ -31,7 +31,7 @@ app.use(express.json()); // after app variable created
 
 app.use(cors());
 
-app.get('/', (req, res) => { res.send('success')})
+app.get('/', (req, res) => {res.send('success')})
 
 app.post('/signin', (req, res) => { signin.handleSignin(req, res, db, bcrypt )})
 
